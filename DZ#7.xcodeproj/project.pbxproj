@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		28D0B289298CD5E100225D79 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0B288298CD5E100225D79 /* main.swift */; };
+		28D0B290298D149000225D79 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0B28F298D149000225D79 /* Client.swift */; };
+		28D0B292298D18F700225D79 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0B291298D18F700225D79 /* Card.swift */; };
+		28D0B294298D2FD100225D79 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0B293298D2FD100225D79 /* Bank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		28D0B285298CD5E100225D79 /* DZ#7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DZ#7"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D0B288298CD5E100225D79 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		28D0B28F298D149000225D79 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		28D0B291298D18F700225D79 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		28D0B293298D2FD100225D79 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				28D0B288298CD5E100225D79 /* main.swift */,
+				28D0B293298D2FD100225D79 /* Bank.swift */,
+				28D0B28F298D149000225D79 /* Client.swift */,
+				28D0B291298D18F700225D79 /* Card.swift */,
 			);
 			path = "DZ#7";
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D0B290298D149000225D79 /* Client.swift in Sources */,
+				28D0B294298D2FD100225D79 /* Bank.swift in Sources */,
+				28D0B292298D18F700225D79 /* Card.swift in Sources */,
 				28D0B289298CD5E100225D79 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
